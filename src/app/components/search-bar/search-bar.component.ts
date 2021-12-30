@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class SearchBarComponent implements OnInit {
   constructor(private router: Router) {}
-
+  title = 'VGames';
   ngOnInit(): void {}
 
   onSubmit(form: NgForm) {
